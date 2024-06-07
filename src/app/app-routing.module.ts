@@ -22,7 +22,8 @@ export const routes: Routes = [
     { path: 'team', component: TeamComponent },
     { path: 'testimonial', component: TestimonialComponent },
     { path: 'features', component: FeaturesComponent },
-    { path: '', redirectTo: '/home', pathMatch: 'full'}
+    { path: '', component: HomeComponent},
+    { path: '**',  component: SimpleComponent}
 ];
 
 @NgModule({
