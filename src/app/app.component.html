@@ -1,9 +1,9 @@
-<!-- Spinner Start-->
+<!-- Spinner Start -->
 <div *ngIf="loader" id="spinner" #spinnerElement class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
   <div class="spinner-border text-danger" role="status" style="width: 6rem; height: 6rem;"></div>
-
   <img src="../assets/img/Btc-dog.jpg" alt="Btc-dog" class="spinner-logo">
 </div>
-<!--Spinner End -->
-
+<app-header></app-header>
+<!-- Spinner End -->
 <router-outlet></router-outlet>
+<app-footer></app-footer>

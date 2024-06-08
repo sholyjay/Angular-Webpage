@@ -1,6 +1,8 @@
 import { Component, AfterViewInit, ViewChild, ElementRef,}  from '@angular/core';
 import { CommonModule } from '@angular/common'; // Import CommonModule
 import { RouterModule } from '@angular/router'; // Import RouterModule
+import { HeaderComponent } from './shared/header/header.component';
+import { FooterComponent } from './shared/footer/footer.component';
 
 declare var $: any;
 
@@ -9,7 +11,7 @@ declare var $: any;
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
   standalone: true, // Ensure this is set if using standalone components
-  imports: [CommonModule, RouterModule] // Include CommonModule, RouterModule, and AppRoutingModule in the imports array
+  imports: [CommonModule, RouterModule, HeaderComponent, FooterComponent] // Include CommonModule, RouterModule, headercomponent and footercomponent in the imports array
 })
 export class AppComponent implements AfterViewInit {
   @ViewChild('spinnerElement', { static: true }) spinnerElement!: ElementRef;

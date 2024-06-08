@@ -198,6 +198,7 @@
 .page-header {
     background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/Btc-dog.jpg) center center no-repeat;
     background-size: cover;
+    min-height: 600px;
 }
 
 .page-header .breadcrumb-item+.breadcrumb-item::before {
@@ -213,6 +214,7 @@
 .page-pit{
     background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/pro3.jpg) center center no-repeat;
     background-size: cover;
+    min-height: 600px;
 }
 
 .page-pit .breadcrumb-item+.breadcrumb-item::before {
@@ -228,6 +230,7 @@
 .page-pit1{
     background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/uda15.jpg) center center no-repeat;
     background-size: cover;
+    min-height: 600px;
 }
 
 .page-pit1 .breadcrumb-item+.breadcrumb-item::before {
@@ -243,6 +246,7 @@
 .page-pit2{
     background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/Coin.jpg) center center no-repeat;
     background-size: cover;
+    min-height: 600px;
 }
 
 .page-pit2 .breadcrumb-item+.breadcrumb-item::before {
@@ -258,6 +262,7 @@
 .page-pit3{
     background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/group.jpg) center center no-repeat;
     background-size: cover;
+    min-height: 600px;
 }
 
 .page-pit3 .breadcrumb-item+.breadcrumb-item::before {
@@ -273,6 +278,7 @@
 .page-pit4{
     background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/Kaussy2.jpg) center center no-repeat;
     background-size: cover;
+    min-height: 600px;
 }
 
 .page-pit4 .breadcrumb-item+.breadcrumb-item::before {
@@ -288,6 +294,7 @@
 .page-pit5{
     background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/Kaussy2.jpg) center center no-repeat;
     background-size: cover;
+    min-height: 600px;
 }
 
 .page-pit5 .breadcrumb-item+.breadcrumb-item::before {
@@ -303,6 +310,7 @@
 .page-pit6{
     background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/about.jpg) center center no-repeat;
     background-size: cover;
+    min-height: 600px;
 }
 
 .page-pit6 .breadcrumb-item+.breadcrumb-item::before {
@@ -318,6 +326,7 @@
 .page-pit7{
     background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../img/lap20.jpeg) center center no-repeat;
     background-size: cover;
+    min-height: 600px;
 }
 
 .page-pit7 .breadcrumb-item+.breadcrumb-item::before {

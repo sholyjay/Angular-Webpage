@@ -1,7 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule, provideClientHydration } from '@angular/platform-browser';
-import { CommonModule } from '@angular/common';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
@@ -27,11 +25,11 @@ import { FeaturesComponent } from './features/features.component';
     ContactComponent,
     TeamComponent,
     TestimonialComponent,
-    FeaturesComponent
+    FeaturesComponent,
   ],
+
   imports: [
     BrowserModule,
-    CommonModule,
     AppRoutingModule
   ],
   providers: [
