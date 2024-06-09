@@ -39,6 +39,7 @@
               "node_modules/jquery/dist/jquery.min.js",
               "node_modules/owl.carousel/dist/owl.carousel.min.js",
               "./src/assets/lib/wow/wow.min.js",
+              "./src/assets/lib/wow/simple.js",
               "./src/assets/lib/easing/easing.min.js",
               "./src/assets/lib/waypoints/waypoints.min.js",
               "./src/assets/lib/owlcarousel/owl.carousel.min.js",
