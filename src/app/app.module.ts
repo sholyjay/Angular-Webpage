@@ -12,6 +12,9 @@ import { ContactComponent } from './contact/contact.component';
 import { TeamComponent } from './team/team.component';
 import { TestimonialComponent } from './testimonial/testimonial.component';
 import { FeaturesComponent } from './features/features.component';
+import { TermsComponent } from './terms/terms.component';
+import { SharedModule } from './shared/shared.module';
+
 
 @NgModule({
   declarations: [
@@ -26,12 +29,15 @@ import { FeaturesComponent } from './features/features.component';
     TeamComponent,
     TestimonialComponent,
     FeaturesComponent,
+    TermsComponent,
   ],
 
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    SharedModule // Import SharedModule here
   ],
+
   providers: [
     provideClientHydration()
   ],

@@ -12,6 +12,12 @@
     right: 30px;
     bottom: 30px;
     z-index: 99;
+    opacity: 0;
+}
+  
+.back-to-top.show {
+    display: block;
+    opacity: 1;
 }
 
 .fw-medium {

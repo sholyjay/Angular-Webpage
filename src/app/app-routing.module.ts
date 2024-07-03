@@ -10,6 +10,9 @@ import { ContactComponent } from './contact/contact.component';
 import { TeamComponent } from './team/team.component';
 import { TestimonialComponent } from './testimonial/testimonial.component';
 import { FeaturesComponent } from './features/features.component';
+import { TermsComponent } from './terms/terms.component';
+import { DemoAccountComponent } from './demo-account/demo-account.component';
+import { LiveAccountComponent } from './live-account/live-account.component';
 
 export const routes: Routes = [
     { path: 'home', component: HomeComponent },
@@ -22,12 +25,15 @@ export const routes: Routes = [
     { path: 'team', component: TeamComponent },
     { path: 'testimonial', component: TestimonialComponent },
     { path: 'features', component: FeaturesComponent },
+    { path: 'terms', component: TermsComponent },
+    { path: 'demo-account', component: DemoAccountComponent },
+  { path: 'live-account', component: LiveAccountComponent },
     { path: '', component: HomeComponent},
     { path: '**',  component: SimpleComponent}
 ];
 
 @NgModule({
-    imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, { scrollPositionRestoration: 'enabled' })],
     exports: [RouterModule]
 })
 export class AppRoutingModule { }
